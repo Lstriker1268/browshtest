@@ -4,4 +4,4 @@
 **In order for Browsh to be able to run, use the following commands:
 * `sudo apt-get install firefox and docker run --rm -it browsh/browsh`
 
-**Browsh should be up and running!**
+**Congratulations! Browsh should be up and running!**
