@@ -5,3 +5,5 @@
 * `sudo apt-get install firefox and docker run --rm -it browsh/browsh`
 
 **Congratulations! Browsh should be up and running!**
+
+![Screenshot of Browsh UI.](https://github.com/Lstriker1268/browsh-ui)
