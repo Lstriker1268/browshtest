@@ -6,4 +6,4 @@
 
 **Congratulations! Browsh should be up and running!**
 
-![Screenshot of Browsh UI.](https://github.com/Lstriker1268/browsh-ui)
+![Screenshot of Browsh UI.](	/../../../../Lstriker1268/browshui)
