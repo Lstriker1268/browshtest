@@ -2,19 +2,14 @@
 **This is for anyone looking to use Browsh, which is an interactive browser that can be used in the terminal!**
 
 **In order for Browsh to be able to run, use the following commands:**
-# Install Firefox manually (headless-compatible)
-`wget https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US -O firefox.tar.bz2`
+# One-command Browsh setup in GitHub Codespaces
+`cd /workspaces && \`
 
-`tar xjf firefox.tar.bz2`
+`wget -O- "https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US" | tar xj && \
+./firefox/firefox --headless --version && \`
 
-`sudo mv firefox /opt/firefox`
+`sudo docker run --rm -it browsh/browsh`
 
-`sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox`
-
-# Verify the installation
-`firefox --headless --version`
-
-Then run `sudo docker run --rm -it browsh/browsh`
 
 **Congratulations! Browsh should be up and running!**
 
