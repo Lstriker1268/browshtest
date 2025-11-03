@@ -12,9 +12,9 @@
 `sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox`
 
 # Verify the installation
-firefox --headless --version
+`firefox --headless --version`
 
-* Then run `sudo docker run --rm -it browsh/browsh`
+Then run `sudo docker run --rm -it browsh/browsh`
 
 **Congratulations! Browsh should be up and running!**
 
