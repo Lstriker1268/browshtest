@@ -3,10 +3,13 @@
 
 **In order for Browsh to be able to run, use the following commands:**
 # Install Firefox manually (headless-compatible)
-* `wget https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US -O firefox.tar.bz2
-tar xjf firefox.tar.bz2
-sudo mv firefox /opt/firefox
-sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox`
+`wget https://download.mozilla.org/?product=firefox-latest&os=linux64&lang=en-US -O firefox.tar.bz2`
+
+`tar xjf firefox.tar.bz2`
+
+`sudo mv firefox /opt/firefox`
+
+`sudo ln -sf /opt/firefox/firefox /usr/local/bin/firefox`
 
 # Verify the installation
 firefox --headless --version
